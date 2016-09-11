@@ -1,0 +1,17 @@
+{
+  "name": "epl-odds-test",
+  "version": "1.0.0",
+  "description": "English Premier League odds check test app using Angular JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/serve/bin/serve"
+  },
+  "author": "Sukh Kalsi",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
