@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!--<link rel="stylesheet" href="styles/main.css">-->
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body ng-app="EPLOddsApp">
     <main class="container" ng-controller="oddsController">
       <h1>English Premier League odds:</h1>
-      <table class="table table-bordered table-striped">
+      <table class="table table-bordered table-striped odds-table">
         <thead>
           <tr>
             <th>
@@ -46,14 +46,39 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="team in teamList | orderBy:propertyName:reverse:localeSensitiveComparator">
-            <td>{{team.name}}</td>
+          <tr ng-repeat="team in teamList | orderBy:propertyName:reverse:localeSensitiveComparator" ng-mouseover="show = 1" ng-mouseout="show = 0" ng-init="show=0">
+            <td>
+              {{team.name}}
+              <div class="tooltip-odds" ng-show="show==1">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Bet broker</th>
+                      <th>Best oods</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ladbrookes</td>
+                      <td>5/1</td>
+                    </tr>
+                    <tr>
+                      <td>Sky Bet</td>
+                      <td>5/1</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
             <td>{{team.betfair | formatBet}}</td>
             <td>{{team.betvictor | formatBet}}</td>
             <td>{{team.paddypower | formatBet}}</td>
           </tr>
         </tbody>
       </table>
+      <div ng-mouseover="showPopover()" ng-mouseleave="hidePopover()">
+        more info
+      </div>
     </main>
     <script src="/node_modules/angular/angular.js"></script>
     <script src="assets/js/app.js"></script>

@@ -1,0 +1,8 @@
+.tooltip-odds {
+  position: absolute;
+  z-index: 10;
+}
+.tooltip-odds th,
+.tooltip-odds td {
+  background: #fff;
+}
