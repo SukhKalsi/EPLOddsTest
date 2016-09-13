@@ -38,8 +38,6 @@ http://localhost:3000/
 
 ## Sources
 
-The data is taken from the following betting companies:
+The data is taken from Bet Fair on 12th September 2016:
 
 https://www.betfair.com/exchange/plus/#/football/market/1.124352712
-http://www.paddypower.com/football/uk-football/premier-league
-http://www.betvictor.com/sports/en/the-premier-league
