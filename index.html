@@ -44,25 +44,29 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="team in teamList | orderBy:propertyName:reverse:localeSensitiveComparator" ng-mouseover="show = 1" ng-mouseout="show = 0" ng-init="show=0">
-            <td>
+          <tr ng-repeat="team in teamList | orderBy:propertyName:reverse:oddsComparator" ng-init="show=0">
+            <td class="tooltip-container" ng-mouseover="show = 1" ng-mouseout="show = 0">
               {{team.name}}
               <div class="tooltip-odds" ng-show="show==1">
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th>Bet broker</th>
-                      <th>Best oods</th>
+                      <th ng-if="team.skybet">Sky Bet</th>
+                      <th ng-if="team.ladbrokes">Ladbrokes</th>
+                      <th ng-if="team.coral">Coral</th>
+                      <th ng-if="team.boylesports">Boyle Sports</th>
+                      <th ng-if="team.betfred">Betfred</th>
+                      <th ng-if="team.williamhill">William Hill</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Ladbrookes</td>
-                      <td>5/1</td>
-                    </tr>
-                    <tr>
-                      <td>Sky Bet</td>
-                      <td>5/1</td>
+                      <td ng-if="team.skybet">{{ team.skybet | formatBet}}</td>
+                      <td ng-if="team.ladbrokes">{{ team.ladbrokes | formatBet}}</td>
+                      <td ng-if="team.coral">{{ team.coral | formatBet}}</td>
+                      <td ng-if="team.boylesports">{{ team.boylesports | formatBet}}</td>
+                      <td ng-if="team.betfred">{{ team.betfred | formatBet}}</td>
+                      <td ng-if="team.williamhill">{{ team.williamhill | formatBet}}</td>
                     </tr>
                   </tbody>
                 </table>

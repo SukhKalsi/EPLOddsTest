@@ -7,3 +7,14 @@ $font-family-base: 'Raleway', sans-serif;
 body {
   font-family: $font-family-base;
 }
+
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip-odds {
+  position: absolute;
+  left: 100%;
+  top: -25%;
+}

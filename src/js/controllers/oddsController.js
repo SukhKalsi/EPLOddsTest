@@ -7,6 +7,7 @@ module.exports = ['$scope', 'dataService', function ($scope, $dataService) {
 
   $dataService.get(oddsEndpoint).success(function (response) {
     $scope.teamList = response;
+    console.log($scope.teamList);
   }).error(function(response) {
     console.log('failure', response);
   });
@@ -16,7 +17,7 @@ module.exports = ['$scope', 'dataService', function ($scope, $dataService) {
     $scope.propertyName = propertyName;
   };
 
-  $scope.localeSensitiveComparator = function(v1, v2) {
+  $scope.oddsComparator = function(v1, v2) {
     var result = 0;
         
     switch ($scope.propertyName) {
@@ -34,28 +35,20 @@ module.exports = ['$scope', 'dataService', function ($scope, $dataService) {
         v2 = parseFloat(v2.value.price);
         break;
 
-      case 'betvictor':
-      case 'paddypower':
+      default:
         if (v1.type !== 'object') {
           return (v1.index < v2.index) ? -1 : 1; 
         }
-
         v1 = parseFloat(v1.value.price.value / v1.value.price.to);
         v2 = parseFloat(v2.value.price.value / v2.value.price.to);
-
         break;
-
-      default:
-        return result;
     }
-
 
     if (v1 !== v2) {
       result = v1 < v2 ? -1 : 1;
     }
 
     return result;
-
   };
 
 }];

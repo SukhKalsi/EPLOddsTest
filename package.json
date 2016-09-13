@@ -4,7 +4,7 @@
   "description": "English Premier League odds check test app using Angular JS",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/gulp/bin/gulp.js"
+    "start": "node data/scrape.js && node_modules/gulp/bin/gulp.js"
   },
   "author": "Sukh Kalsi",
   "license": "MIT",
