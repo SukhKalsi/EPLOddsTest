@@ -1,0 +1,422 @@
+[
+  {
+    "name": "AFC Bournemouth",
+    "betfair": {
+      "price": 700,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Arsenal",
+    "betfair": {
+      "price": 17,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 14,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 12,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Burnley",
+    "betfair": {
+      "price": 700,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Chelsea",
+    "betfair": {
+      "price": 5.6,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 9,
+        "to": 2
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 5,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Crystal Palace",
+    "betfair": {
+      "price": 34,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Everton",
+    "betfair": {
+      "price": 140,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 100,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 66,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Hull City",
+    "betfair": {
+      "price": 110,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 750,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Leicester City",
+    "betfair": {
+      "price": 140,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 80,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 125,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Liverpool",
+    "betfair": {
+      "price": 12,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 11,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 10,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Manchester City",
+    "betfair": {
+      "price": 2,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 10,
+        "to": 11
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 10,
+        "to": 11
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Manchester United",
+    "betfair": {
+      "price": 6.6,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 5,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 5,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Middlesbrough",
+    "betfair": {
+      "price": 710,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 750,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Southampton",
+    "betfair": {
+      "price": 600,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 750,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Stoke City",
+    "betfair": {
+      "price": 810,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 750,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Sunderland",
+    "betfair": {
+      "price": 500,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Swansea City",
+    "betfair": {
+      "price": 85,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 750,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "betfair": {
+      "price": 17,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 16,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 16,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "Watford",
+    "betfair": {
+      "price": 38,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 500,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "West Bromwich Albion",
+    "betfair": {
+      "price": 700,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 1000,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  },
+  {
+    "name": "West Ham United",
+    "betfair": {
+      "price": 350,
+      "format_type": "decimal"
+    },
+    "paddypower": {
+      "price": {
+        "value": 325,
+        "to": 1
+      },
+      "format_type": "fraction"
+    },
+    "betvictor": {
+      "price": {
+        "value": 300,
+        "to": 1
+      },
+      "format_type": "fraction"
+    }
+  }
+]
