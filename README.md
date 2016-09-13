@@ -2,6 +2,13 @@
 
 A simple app which displays the English Premier League winner odds for each team.
 The app is built using Angular and simply displays a table which is sortable by column.
+Upon running, a node script is executed prior to obtain the latest odds from Just Bookies:
+https://www.justbookies.com/premier-league-odds/
+
+The above service excludes Bet Fair, which is driven off a static JSON file.
+
+Once running, the user can sort the table by Team or respective bookmakers.
+The user can hover over the Team name to display a tooltip type view which displays further odds from other bookmakers. 
 
 ## Requirements
 
